@@ -6,8 +6,4 @@ describe('Teste de Fizz Buzz', () => {
         expect(verificaFizz(3)).toBe('Fizz');
     });
 
-    it('Verifica se o número 5 é Buzz', () => {
-        expect(verificaBuzz(5)).toBe('Buzz');
-    });
-
 });
